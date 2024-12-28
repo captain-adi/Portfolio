@@ -1,10 +1,12 @@
 import React from "react";
+import Hyperspeed from "./Hyperspeed/Hyperspeed";
 
 const HomePage = () => {
   return (
     <div>
+      <Hyperspeed/>
       {/* Hero Section */}
-      <section className="relative bg-gray-900 text-white h-screen flex flex-col justify-center items-center text-center px-6">
+      <section className="relative text-white h-screen flex flex-col justify-center items-center text-center px-6">
         <div
           className="absolute inset-0 bg-cover bg-center opacity-30"
           style={{ backgroundImage: "url('your-image-url.jpg')" }}

@@ -1,10 +1,22 @@
 import React from "react";
 import { projects } from "../ProjectData/ProjectData";
 import { Link } from "react-router-dom";
+import Squares from "./Squares";
 
 const Project = () => {
 
   return (
+    <>
+    <div className="relative overflow-hidden w-full">
+    <Squares
+        speed={0.3}
+        size={10} // pixels
+        direction="left" // up, down, left, right, diagonal
+        borderColor="#fff"
+        hoverFillColor="#222"
+        className="absolute top-0 left-0 w-full h-full -z-10"
+      />
+
     <section className="bg-black h-full text-white py-12 xl:h-screen">
       <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-8">
         {projects.map((project) => (
@@ -27,6 +39,9 @@ const Project = () => {
       </div>
       
     </section>
+    </div>
+    
+    </>
   );
 };
 
