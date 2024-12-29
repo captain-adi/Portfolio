@@ -16,8 +16,7 @@
     "react-dom": "^18.3.1",
     "react-icons": "^5.4.0",
     "react-router-dom": "^7.0.2",
-    "three": "^0.171.0",
-    "@react-spring/web": "^9.x.x"
+    "three": "^0.170.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.15.0",
