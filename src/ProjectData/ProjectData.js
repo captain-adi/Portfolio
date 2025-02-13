@@ -24,6 +24,6 @@ export const projects = [
       id: 4,
       title: "Employee Management Ststem",
       category: "WEB DESIGN",
-      image: "/public/image/ems.jpg", 
+      image: "image/ems.jpg", 
     },
   ];
