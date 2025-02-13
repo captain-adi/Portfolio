@@ -22,8 +22,8 @@ export const projects = [
     },
     {
       id: 4,
-      title: "Mini 3D Design Project (Dummy)",
+      title: "Employee Management Ststem",
       category: "WEB DESIGN",
-      image: "https://via.placeholder.com/600x400", 
+      image: "/public/image/ems.jpg", 
     },
   ];

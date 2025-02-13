@@ -6,31 +6,31 @@ const HomePage = () => {
     <div>
       <Hyperspeed/>
       {/* Hero Section */}
-      <section className="relative text-white h-screen flex flex-col justify-center items-center text-center px-6">
-        <div
-          className="absolute inset-0 bg-cover bg-center opacity-30"
-          style={{ backgroundImage: "url('your-image-url.jpg')" }}
-        ></div>
-        <div className="relative z-10">
-          <h1 className="text-5xl sm:text-6xl font-extrabold mb-4 text-white">
-            Hii, I'm Aditya
-          </h1>
-          <h2 className="text-2xl sm:text-3xl font-medium text-red-600 mb-6">
-            Web Developer & Designer
-          </h2>
-          <p className="text-lg sm:text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
-            I'm a passionate web developer who specializes in creating
-            responsive and visually appealing websites using modern tools and
-            technologies like React, Next.js, and Tailwind CSS.
+      <div className="bg-gray-900 flex justify-center items-center min-h-screen">
+      <div className="max-w-4xl mx-auto flex items-center p-10">
+        {/* Text Section */}
+        <div className="text-white w-1/2">
+          <p className="text-sm font-semibold text-gray-300">HI, I'M ADITYA</p>
+          <h1 className="text-5xl font-bold leading-tight mt-2">I'M A WEB<br />DESIGNER</h1>
+          <p className="text-gray-400 mt-4">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate
+            libero et velit interdum, ac aliquet odio mattis.
           </p>
-          <a
-            href="#contact"
-            className="bg-red-600 text-white px-6 py-3 rounded-lg font-semibold text-lg hover:bg-red-700 transition-colors"
-          >
-            Contact Me
-          </a>
+          <button className="mt-6 px-6 py-3 border border-white text-white rounded-lg hover:bg-white hover:text-black transition">
+            VIEW MY PROJECTS
+          </button>
         </div>
-      </section>
+        
+        {/* Image Section */}
+        <div className="w-1/2 flex justify-center z-10">
+          <img
+            src="/image/profile.jpg"
+            alt="Profile Picture"
+            className="rounded-lg shadow-lg"
+          />
+        </div>
+      </div>
+    </div>
     </div>
   );
 };
