@@ -31,8 +31,8 @@ const Project = () => {
             <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-90 group-hover:opacity-100 transition duration-300"></div>
             {/* Project Content */}
             <div className="absolute bottom-6 left-6">
-              <h3 className="text-lg font-bold text-green-400">{project.category}</h3>
-              <h2 className="text-2xl font-extrabold">{project.title}</h2>
+              <h3 className="text-lg font-bold ">{project.category}</h3>
+              <h2 className="text-2xl font-extrabold text-green-400">{project.title}</h2>
             </div>
           </div></Link> 
         ))}
