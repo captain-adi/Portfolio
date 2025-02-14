@@ -7,7 +7,7 @@ const Project = () => {
 
   return (
     <>
-    <div className="relative h-screen overflow-hidden w-full">
+    <div className="relative h-full md:h-screen overflow-hidden w-full">
     <Squares
         speed={0.3}
         size={10} // pixels

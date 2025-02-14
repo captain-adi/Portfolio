@@ -24,6 +24,7 @@ export const projects = [
       id: 4,
       title: "Employee Management Ststem",
       category: "WEB DESIGN",
+      projectLink:"https://ems-sites.netlify.app/",
       image: "image/ems.jpg", 
     },
   ];

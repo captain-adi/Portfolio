@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FiMail, FiPhone,  FiInstagram} from "react-icons/fi";
-import { AiOutlineWhatsApp} from "react-icons/ai";
+import { FiMail, FiPhone, FiInstagram } from "react-icons/fi";
+import { AiOutlineWhatsApp } from "react-icons/ai";
 import { FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
@@ -46,8 +46,11 @@ const ContactForm = () => {
           <ul className="space-y-3">
             <li className="flex items-center space-x-2">
               <FiMail size={20} />
-              <a href="mailto:prinejot022@gmail.com" className="hover:underline">
-                 adipandey830@gmail.com
+              <a
+                href="mailto:prinejot022@gmail.com"
+                className="hover:underline"
+              >
+                adipandey830@gmail.com
               </a>
             </li>
             <li className="flex items-center space-x-2">
@@ -57,14 +60,21 @@ const ContactForm = () => {
           </ul>
 
           <h2 className="font-semibold mt-6 mb-4">Social Media</h2>
-         <div className="flex space-x-6 text-xl mt-auto mb-4">
-            <Link>
+          <div className="flex space-x-6 text-xl mt-auto mb-4">
+            <Link to="linkedin.com/in/aditya-pandey-070447233">
+              <FaLinkedin className="cursor-pointer hover:text-blue-500" />
             </Link>
-                  <FaLinkedin className="cursor-pointer hover:text-blue-500" />
-                  <FiInstagram className="cursor-pointer hover:text-pink-500" />
-                  <AiOutlineWhatsApp className="cursor-pointer hover:text-green-500" />
-                  <FaXTwitter className="cursor-pointer hover:text-gray-400" />
-                </div>
+            <Link to="https://www.instagram.com/aditya.iox/">
+              <FiInstagram className="cursor-pointer hover:text-pink-500" />
+            </Link>
+            <Link to="">
+              <AiOutlineWhatsApp className="cursor-pointer hover:text-green-500" />
+            </Link>
+            <Link to="https://x.com/adi_iox">
+              {" "}
+              <FaXTwitter className="cursor-pointer hover:text-gray-400" />
+            </Link>
+          </div>
         </div>
       </div>
     </div>
@@ -72,4 +82,3 @@ const ContactForm = () => {
 };
 
 export default ContactForm;
-    
