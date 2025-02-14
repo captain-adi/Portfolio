@@ -4,7 +4,10 @@ import Hyperspeed from "./Hyperspeed/Hyperspeed";
 const HomePage = () => {
   return (
     <div>
-      <Hyperspeed/>
+      <div className="hidden md:block">
+
+      <Hyperspeed />
+      </div>
       {/* Hero Section */}
       <div className="bg-gray-900 flex justify-center items-center min-h-screen">
       <div className="max-w-4xl mx-auto flex items-center p-10">
